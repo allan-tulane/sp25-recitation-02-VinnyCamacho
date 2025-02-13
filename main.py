@@ -111,5 +111,9 @@ def compare_span(span_fn1, span_fn2, sizes=[10, 20, 50, 100, 1000, 5000, 10000])
 			))
 	return result
 
-	
-
+""" ANSWER FOR NUMBER 4:
+After deriving the asymptotic behavior for these values of f(n), we found that when f(n) = 1 and when f(n) = log(n), 
+there is linear growth with W(n) = O(n), while f(n) = n shows a growth slightly faster than linear, with W(n) = O(nlog(n)). 
+These are supported through our test cases increasing n from 10-100000 and graphing them, which we have linked here: 
+https://drive.google.com/file/d/1bHyWVkYUw0Kr3afPk2k2ivZPufCj3Lc_/view?usp=sharing
+"""
